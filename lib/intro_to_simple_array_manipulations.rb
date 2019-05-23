@@ -15,13 +15,13 @@ def pop_with_args (array)
   array.size
 end
 
-def using_shift (my_favorite_cities)
-  my_favorite_cities.shift
+def using_shift (array)
+  array.shift
 end
 
-def shift_with_args (ice_cream_brands)
-  ice_cream_brands.shift(2)
-  ice_cream_brands.size
+def shift_with_args (array)
+  array.shift(2)
+  array.size
 end
 
 def using_concat (my_favorite_things, more_favs)
