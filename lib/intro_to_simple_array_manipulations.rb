@@ -2,17 +2,17 @@ def using_push (array, string)
   array.push(string)
 end
 
-def using_unshift (neighborhoods_in_northwest_brooklyn, new_neighborhood)
-  neighborhoods_in_northwest_brooklyn.unshift(new_neighborhood)
+def using_unshift (array, string)
+  array.unshift(string)
 end
 
-def using_pop (great_hits_of_the_nineties)
-  great_hits_of_the_nineties.pop
+def using_pop (array)
+  array.pop
 end
 
-def pop_with_args (chars_in_game_of_thrones)
-  chars_in_game_of_thrones.pop(2)
-  chars_in_game_of_thrones.size
+def pop_with_args (array)
+  array.pop(2)
+  array.size
 end
 
 def using_shift (my_favorite_cities)
