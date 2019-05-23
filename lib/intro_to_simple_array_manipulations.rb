@@ -37,7 +37,7 @@ def using_uniq (array)
 end
 
 def using_flatten (array_in_arrays)
-  private_colleges_in_new_york.flatten
+  array_in_arrays.flatten
 end
 
 def using_delete
