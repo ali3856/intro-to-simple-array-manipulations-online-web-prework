@@ -32,11 +32,11 @@ def using_insert (array, element)
   array.insert(4, element)
 end
 
-def using_uniq (captain_planet_and_the_planeteers)
-  captain_planet_and_the_planeteers.uniq
+def using_uniq (array)
+  array.uniq
 end
 
-def using_flatten (private_colleges_in_new_york)
+def using_flatten (array_in_arrays)
   private_colleges_in_new_york.flatten
 end
 
